@@ -17,10 +17,27 @@ function export_json_file(file_path, data) {
     fs.writeFileSync(file_path, json_data, 'utf8');
 }
 
+// Função para gerar SQL INSERT
+
+function is_empty(value) {
+    return value === undefined || value === null || value === '';
+}
 function generate_sql_insert(data) {
     return data.map(item => {
-        return `INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (${item.data}, ${item.id_marca_}, ${item.nome}, ${item.valor_do_veiculo}, ${item.vendas};)`
-    }).join('\n');
+        const data = item.data;
+        const id_marca = item.id_marca || item.id_marca_;
+        const marca = item.marca || item.nome;
+        const valor_do_veiculo = item.valor_do_veiculo;
+        const vendas = item.vendas;
+
+        const datasql = is_empty(data) ? 'NULL' : `'${data}'`;
+        const id_marcasql = is_empty(id_marca) ? 'NULL' : id_marca;
+        const marcasql = is_empty(marca) ? 'NULL' : `'${marca}'`;
+        const valor_do_veiculosql = is_empty(valor_do_veiculo) ? 'NULL' : valor_do_veiculo;
+        const vendassql = is_empty(vendas) ? 'NULL' : vendas;
+
+        return `INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (${datasql}, ${id_marcasql}, ${marcasql}, ${valor_do_veiculosql}, ${vendassql};)`
+       }).join('\n');
 }
 
 // Exportando as funções

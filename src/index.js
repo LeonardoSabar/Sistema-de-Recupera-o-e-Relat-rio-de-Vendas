@@ -19,7 +19,7 @@ export_json_file('./output/db2_corrected.json', db2_corrected);
 const db1_sql = generate_sql_insert(db1_corrected);
 const db2_sql = generate_sql_insert(db2_corrected);
 
-fs.writeFileSync('./data/db1.sql', db1_sql, 'utf8');
-fs.writeFileSync('./data/db2.sql', db2_sql, 'utf8');
+fs.writeFileSync('./sql/db1.sql', db1_sql, 'utf8');
+fs.writeFileSync('./sql/db2.sql', db2_sql, 'utf8');
 
 console.log('Arquivos gerados com sucesso!');
