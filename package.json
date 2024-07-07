@@ -1,0 +1,28 @@
+{
+  "name": "sistema_de_recuperacao_e_relatorio_de_vendas",
+  "version": "1.0.0",
+  "description": "Projeto para recuperação de dados e criação de relatório de vendas",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoSabar/Sistema_de_Recuperacao_e_Relatorio_de_Vendas.git"
+  },
+  "keywords": [
+    "sales",
+    "data",
+    "recovery",
+    "report"
+  ],
+  "author": "Leonardo Barbosa Sales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoSabar/Sistema_de_Recuperacao_e_Relatorio_de_Vendas/issues"
+  },
+  "homepage": "https://github.com/LeonardoSabar/Sistema_de_Recuperacao_e_Relatorio_de_Vendas#readme"
+}

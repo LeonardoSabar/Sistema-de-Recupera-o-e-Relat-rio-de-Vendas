@@ -1,10 +1,14 @@
 
 //Função para corrigir nomes de marcas e veículos
 
-function correct_names(data){
+function correct_names(data) {
     data.forEach(item => {
-        item.brand = item.brand.replace(/æ/g, 'a').replace(/ø/g, 'o');
-        item.vehicle = item.vehicle.replace(/æ/g, 'a').replace(/ø/g, 'o');
+      if (typeof item.brand === 'string' && typeof item.vehicle === 'string') {
+        item.brand = item.brand.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
+        item.vehicle = item.vehicle.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
+      } else {
+        console.error('Erro: item.brand ou item.vehicle não é uma string:', item);
+      }
     });
     return data;
 }
