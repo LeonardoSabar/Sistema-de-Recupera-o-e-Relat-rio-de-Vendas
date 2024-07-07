@@ -19,7 +19,7 @@ function export_json_file(file_path, data) {
 
 function generate_sql_insert(data) {
     return data.map(item => {
-        return `INSERT INTO vehicles (brand, vehicle, sales) VALUES ('${item.brand}', '${item.vehicle}', ${item.sales});`;
+        return `INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (${item.data}, ${item.id_marca_}, ${item.nome}, ${item.valor_do_veiculo}, ${item.vendas};)`
     }).join('\n');
 }
 

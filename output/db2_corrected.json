@@ -1,27 +1,27 @@
 [
   {
     "id_marca": 1,
-    "marca": "Fiæt"
+    "marca": "Fiat"
   },
   {
     "id_marca": 2,
-    "marca": "Vølkswægen"
+    "marca": "Volkswagen"
   },
   {
     "id_marca": 3,
-    "marca": "Kiæ"
+    "marca": "Kia"
   },
   {
     "id_marca": 4,
-    "marca": "Peugeøt "
+    "marca": "Peugeot "
   },
   {
     "id_marca": 5,
-    "marca": "Tøyøtæ"
+    "marca": "Toyota"
   },
   {
     "id_marca": 6,
-    "marca": "Nissæn"
+    "marca": "Nissan"
   },
   {
     "id_marca": 7,
@@ -29,18 +29,18 @@
   },
   {
     "id_marca": 8,
-    "marca": "Subæru"
+    "marca": "Subaru"
   },
   {
     "id_marca": 9,
-    "marca": "Chevrølet "
+    "marca": "Chevrolet "
   },
   {
     "id_marca": 10,
-    "marca": "JæC Møtørs"
+    "marca": "JaC Motors"
   },
   {
     "id_marca": 11,
-    "marca": "Renæult"
+    "marca": "Renault"
   }
 ]

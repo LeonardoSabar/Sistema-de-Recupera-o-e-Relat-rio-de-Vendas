@@ -4,21 +4,21 @@
     "id_marca_": 1,
     "vendas": 40,
     "valor_do_veiculo": 29000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 1,
     "vendas": 2,
     "valor_do_veiculo": 49000,
-    "nome": "ærgø"
+    "nome": "argo"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 1,
     "vendas": 3,
     "valor_do_veiculo": 19000,
-    "nome": "Unø"
+    "nome": "Uno"
   },
   {
     "data": "2022-01-01",
@@ -32,35 +32,35 @@
     "id_marca_": 3,
     "vendas": 42,
     "valor_do_veiculo": 32000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 2,
     "vendas": "2",
     "valor_do_veiculo": 40000,
-    "nome": "Gøl"
+    "nome": "Gol"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 7,
     "vendas": 4,
     "valor_do_veiculo": 60000,
-    "nome": "Læncer"
+    "nome": "Lancer"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 2,
     "vendas": 1,
     "valor_do_veiculo": 35000,
-    "nome": "Kømbi"
+    "nome": "Kombi"
   },
   {
     "data": "2022-01-01",
     "id_marca_": 9,
     "vendas": 2,
     "valor_do_veiculo": 45200,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-01-01",
@@ -74,14 +74,14 @@
     "id_marca_": 11,
     "vendas": "5",
     "valor_do_veiculo": 70000,
-    "nome": "Cæptur"
+    "nome": "Captur"
   },
   {
     "data": "2022-02-01",
     "id_marca_": 1,
     "vendas": 1,
     "valor_do_veiculo": 8000,
-    "nome": "Pæliø"
+    "nome": "Palio"
   },
   {
     "data": "2022-02-01",
@@ -95,28 +95,28 @@
     "id_marca_": 1,
     "vendas": "52",
     "valor_do_veiculo": 29000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-02-01",
     "id_marca_": 3,
     "vendas": 30,
     "valor_do_veiculo": 36000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-02-01",
     "id_marca_": 5,
     "vendas": 15,
     "valor_do_veiculo": 45000,
-    "nome": "Yæris"
+    "nome": "Yaris"
   },
   {
     "data": "2022-02-01",
     "id_marca_": 6,
     "vendas": 2,
     "valor_do_veiculo": 28000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-02-01",
@@ -130,14 +130,14 @@
     "id_marca_": 2,
     "vendas": 6,
     "valor_do_veiculo": 30000,
-    "nome": "Gøl"
+    "nome": "Gol"
   },
   {
     "data": "2022-02-01",
     "id_marca_": 3,
     "vendas": "4",
     "valor_do_veiculo": 41000,
-    "nome": "Cerætø"
+    "nome": "Cerato"
   },
   {
     "data": "2022-02-01",
@@ -158,7 +158,7 @@
     "id_marca_": 1,
     "vendas": 1,
     "valor_do_veiculo": 10000,
-    "nome": "Unø"
+    "nome": "Uno"
   },
   {
     "data": "2022-03-01",
@@ -172,7 +172,7 @@
     "id_marca_": 3,
     "vendas": 25,
     "valor_do_veiculo": 145000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-03-01",
@@ -186,35 +186,35 @@
     "id_marca_": 1,
     "vendas": 30,
     "valor_do_veiculo": 30000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-03-01",
     "id_marca_": 2,
     "vendas": 1,
     "valor_do_veiculo": 28000,
-    "nome": "Gøl"
+    "nome": "Gol"
   },
   {
     "data": "2022-03-01",
     "id_marca_": 7,
     "vendas": 1,
     "valor_do_veiculo": 75000,
-    "nome": "Læncer"
+    "nome": "Lancer"
   },
   {
     "data": "2022-03-01",
     "id_marca_": 8,
     "vendas": 2,
     "valor_do_veiculo": 300000,
-    "nome": "Førester"
+    "nome": "Forester"
   },
   {
     "data": "2022-03-01",
     "id_marca_": 9,
     "vendas": 3,
     "valor_do_veiculo": 45000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-03-01",
@@ -228,14 +228,14 @@
     "id_marca_": 11,
     "vendas": 1,
     "valor_do_veiculo": 30000,
-    "nome": "Sænderø"
+    "nome": "Sandero"
   },
   {
     "data": "2022-04-01",
     "id_marca_": 1,
     "vendas": 40,
     "valor_do_veiculo": 28000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-04-01",
@@ -249,7 +249,7 @@
     "id_marca_": 3,
     "vendas": "30",
     "valor_do_veiculo": 26000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-04-01",
@@ -263,14 +263,14 @@
     "id_marca_": 1,
     "vendas": 1,
     "valor_do_veiculo": 12000,
-    "nome": "Pæliø"
+    "nome": "Palio"
   },
   {
     "data": "2022-04-01",
     "id_marca_": 6,
     "vendas": "5",
     "valor_do_veiculo": 30000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-04-01",
@@ -291,7 +291,7 @@
     "id_marca_": 2,
     "vendas": 1,
     "valor_do_veiculo": 99000,
-    "nome": "Pølø"
+    "nome": "Polo"
   },
   {
     "data": "2022-04-01",
@@ -305,14 +305,14 @@
     "id_marca_": 11,
     "vendas": 5,
     "valor_do_veiculo": 25000,
-    "nome": "Cliø"
+    "nome": "Clio"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 1,
     "vendas": 50,
     "valor_do_veiculo": 25000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-05-01",
@@ -326,49 +326,49 @@
     "id_marca_": 3,
     "vendas": 35,
     "valor_do_veiculo": 19000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 1,
     "vendas": 2,
     "valor_do_veiculo": 28000,
-    "nome": "ærgø"
+    "nome": "argo"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 5,
     "vendas": "3",
     "valor_do_veiculo": 35000,
-    "nome": "Yæris"
+    "nome": "Yaris"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 6,
     "vendas": 7,
     "valor_do_veiculo": 22000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 2,
     "vendas": 2,
     "valor_do_veiculo": 90000,
-    "nome": "T-Crøss"
+    "nome": "T-Cross"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 8,
     "vendas": 4,
     "valor_do_veiculo": 320000,
-    "nome": "Førester"
+    "nome": "Forester"
   },
   {
     "data": "2022-05-01",
     "id_marca_": 9,
     "vendas": 3,
     "valor_do_veiculo": 40000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-05-01",
@@ -382,14 +382,14 @@
     "id_marca_": 11,
     "vendas": 5,
     "valor_do_veiculo": 18000,
-    "nome": "Cliø"
+    "nome": "Clio"
   },
   {
     "data": "2022-06-01",
     "id_marca_": 1,
     "vendas": 45,
     "valor_do_veiculo": 26000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-06-01",
@@ -403,7 +403,7 @@
     "id_marca_": 3,
     "vendas": 30,
     "valor_do_veiculo": 20000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-06-01",
@@ -417,35 +417,35 @@
     "id_marca_": 1,
     "vendas": 2,
     "valor_do_veiculo": 20000,
-    "nome": "Unø"
+    "nome": "Uno"
   },
   {
     "data": "2022-06-01",
     "id_marca_": 6,
     "vendas": 3,
     "valor_do_veiculo": 23000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-06-01",
     "id_marca_": 7,
     "vendas": 8,
     "valor_do_veiculo": 160000,
-    "nome": "Pæjerø"
+    "nome": "Pajero"
   },
   {
     "data": "2022-06-01",
     "id_marca_": 1,
     "vendas": 4,
     "valor_do_veiculo": 80000,
-    "nome": "Crønøs"
+    "nome": "Cronos"
   },
   {
     "data": "2022-06-01",
     "id_marca_": 9,
     "vendas": 8,
     "valor_do_veiculo": 42000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-06-01",
@@ -459,14 +459,14 @@
     "id_marca_": 11,
     "vendas": 3,
     "valor_do_veiculo": 80000,
-    "nome": "Sænderø RS"
+    "nome": "Sandero RS"
   },
   {
     "data": "2022-07-01",
     "id_marca_": 1,
     "vendas": 40,
     "valor_do_veiculo": 32000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-07-01",
@@ -480,7 +480,7 @@
     "id_marca_": 3,
     "vendas": 38,
     "valor_do_veiculo": 18000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-07-01",
@@ -494,21 +494,21 @@
     "id_marca_": 5,
     "vendas": 20,
     "valor_do_veiculo": 140000,
-    "nome": "Cørøllæ"
+    "nome": "Corolla"
   },
   {
     "data": "2022-07-01",
     "id_marca_": 2,
     "vendas": 1,
     "valor_do_veiculo": 120000,
-    "nome": "Jettæ"
+    "nome": "Jetta"
   },
   {
     "data": "2022-07-01",
     "id_marca_": 7,
     "vendas": 3,
     "valor_do_veiculo": 75000,
-    "nome": "Læncer"
+    "nome": "Lancer"
   },
   {
     "data": "2022-07-01",
@@ -522,7 +522,7 @@
     "id_marca_": 9,
     "vendas": 3,
     "valor_do_veiculo": 55000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-07-01",
@@ -543,7 +543,7 @@
     "id_marca_": 1,
     "vendas": 25,
     "valor_do_veiculo": 35000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-08-01",
@@ -557,7 +557,7 @@
     "id_marca_": 3,
     "vendas": 22,
     "valor_do_veiculo": 33000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-08-01",
@@ -571,14 +571,14 @@
     "id_marca_": 5,
     "vendas": 10,
     "valor_do_veiculo": 14000,
-    "nome": "Cørøllæ"
+    "nome": "Corolla"
   },
   {
     "data": "2022-08-01",
     "id_marca_": 6,
     "vendas": 1,
     "valor_do_veiculo": 22000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-08-01",
@@ -592,14 +592,14 @@
     "id_marca_": 2,
     "vendas": 6,
     "valor_do_veiculo": 60000,
-    "nome": "Sæveirø"
+    "nome": "Saveiro"
   },
   {
     "data": "2022-08-01",
     "id_marca_": 9,
     "vendas": 4,
     "valor_do_veiculo": 45000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-08-01",
@@ -613,14 +613,14 @@
     "id_marca_": 11,
     "vendas": 4,
     "valor_do_veiculo": 32000,
-    "nome": "Cliø"
+    "nome": "Clio"
   },
   {
     "data": "2022-09-01",
     "id_marca_": 1,
     "vendas": 20,
     "valor_do_veiculo": 34000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-09-01",
@@ -634,7 +634,7 @@
     "id_marca_": 3,
     "vendas": 18,
     "valor_do_veiculo": 35000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-09-01",
@@ -648,21 +648,21 @@
     "id_marca_": 5,
     "vendas": 4,
     "valor_do_veiculo": 120000,
-    "nome": "Cørøllæ"
+    "nome": "Corolla"
   },
   {
     "data": "2022-09-01",
     "id_marca_": 6,
     "vendas": 2,
     "valor_do_veiculo": 30000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-09-01",
     "id_marca_": 7,
     "vendas": 3,
     "valor_do_veiculo": 70000,
-    "nome": "Læncer"
+    "nome": "Lancer"
   },
   {
     "data": "2022-09-01",
@@ -676,7 +676,7 @@
     "id_marca_": 9,
     "vendas": 4,
     "valor_do_veiculo": 38000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-09-01",
@@ -690,14 +690,14 @@
     "id_marca_": 11,
     "vendas": 1,
     "valor_do_veiculo": 32000,
-    "nome": "Sænderø"
+    "nome": "Sandero"
   },
   {
     "data": "2022-10-01",
     "id_marca_": 1,
     "vendas": 15,
     "valor_do_veiculo": 60000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-10-01",
@@ -711,7 +711,7 @@
     "id_marca_": 3,
     "vendas": 19,
     "valor_do_veiculo": 42000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-10-01",
@@ -725,35 +725,35 @@
     "id_marca_": 5,
     "vendas": 2,
     "valor_do_veiculo": 60000,
-    "nome": "Yæris"
+    "nome": "Yaris"
   },
   {
     "data": "2022-10-01",
     "id_marca_": 2,
     "vendas": 2,
     "valor_do_veiculo": 45000,
-    "nome": "Kømbi"
+    "nome": "Kombi"
   },
   {
     "data": "2022-10-01",
     "id_marca_": 7,
     "vendas": 3,
     "valor_do_veiculo": 80000,
-    "nome": "Læncer"
+    "nome": "Lancer"
   },
   {
     "data": "2022-10-01",
     "id_marca_": 8,
     "vendas": 10,
     "valor_do_veiculo": 360000,
-    "nome": "Førester"
+    "nome": "Forester"
   },
   {
     "data": "2022-10-01",
     "id_marca_": 9,
     "vendas": 1,
     "valor_do_veiculo": 40000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-10-01",
@@ -767,14 +767,14 @@
     "id_marca_": 11,
     "vendas": 6,
     "valor_do_veiculo": 36000,
-    "nome": "Cliø"
+    "nome": "Clio"
   },
   {
     "data": "2022-11-01",
     "id_marca_": 1,
     "vendas": 25,
     "valor_do_veiculo": 64000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-11-01",
@@ -788,7 +788,7 @@
     "id_marca_": 3,
     "vendas": 30,
     "valor_do_veiculo": 46000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-11-01",
@@ -802,35 +802,35 @@
     "id_marca_": 5,
     "vendas": "6",
     "valor_do_veiculo": 158000,
-    "nome": "Cørøllæ"
+    "nome": "Corolla"
   },
   {
     "data": "2022-11-01",
     "id_marca_": 6,
     "vendas": 3,
     "valor_do_veiculo": 30000,
-    "nome": "Mærch"
+    "nome": "March"
   },
   {
     "data": "2022-11-01",
     "id_marca_": 1,
     "vendas": 2,
     "valor_do_veiculo": 42000,
-    "nome": "Unø"
+    "nome": "Uno"
   },
   {
     "data": "2022-11-01",
     "id_marca_": 3,
     "vendas": 1,
     "valor_do_veiculo": 89000,
-    "nome": "Riø"
+    "nome": "Rio"
   },
   {
     "data": "2022-11-01",
     "id_marca_": 9,
     "vendas": "5",
     "valor_do_veiculo": 40000,
-    "nome": "ønix"
+    "nome": "onix"
   },
   {
     "data": "2022-11-01",
@@ -844,14 +844,14 @@
     "id_marca_": 11,
     "vendas": 10,
     "valor_do_veiculo": 42000,
-    "nome": "Cliø"
+    "nome": "Clio"
   },
   {
     "data": "2022-12-01",
     "id_marca_": 1,
     "vendas": 32,
     "valor_do_veiculo": 72000,
-    "nome": "Møbi"
+    "nome": "Mobi"
   },
   {
     "data": "2022-12-01",
@@ -865,7 +865,7 @@
     "id_marca_": 3,
     "vendas": 19,
     "valor_do_veiculo": 49000,
-    "nome": "Picæntø"
+    "nome": "Picanto"
   },
   {
     "data": "2022-12-01",
@@ -879,35 +879,35 @@
     "id_marca_": 5,
     "vendas": "3",
     "valor_do_veiculo": 75000,
-    "nome": "Yæris"
+    "nome": "Yaris"
   },
   {
     "data": "2022-12-01",
     "id_marca_": 1,
     "vendas": 1,
     "valor_do_veiculo": 15000,
-    "nome": "Pæliø"
+    "nome": "Palio"
   },
   {
     "data": "2022-12-01",
     "id_marca_": 7,
     "vendas": 5,
     "valor_do_veiculo": 280000,
-    "nome": "Pæjerø"
+    "nome": "Pajero"
   },
   {
     "data": "2022-12-01",
     "id_marca_": 8,
     "vendas": 12,
     "valor_do_veiculo": 360000,
-    "nome": "Førester"
+    "nome": "Forester"
   },
   {
     "data": "2022-12-01",
     "id_marca_": 3,
     "vendas": 2,
     "valor_do_veiculo": 45000,
-    "nome": "Cerætø"
+    "nome": "Cerato"
   },
   {
     "data": "2022-12-01",
@@ -921,6 +921,6 @@
     "id_marca_": 11,
     "vendas": "6",
     "valor_do_veiculo": 52000,
-    "nome": "Sænderø"
+    "nome": "Sandero"
   }
 ]

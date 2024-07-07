@@ -3,11 +3,12 @@
 
 function correct_names(data) {
     data.forEach(item => {
-      if (typeof item.brand === 'string' && typeof item.vehicle === 'string') {
-        item.brand = item.brand.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
-        item.vehicle = item.vehicle.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
-      } else {
-        console.error('Erro: item.brand ou item.vehicle não é uma string:', item);
+      if (typeof item.nome === 'string') {
+        item.nome = item.nome.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
+        
+      }
+      else if (typeof item.marca === 'string') {
+        item.marca = item.marca.replace(/\æ/g, 'a').replace(/\ø/g, 'o');
       }
     });
     return data;
@@ -17,8 +18,8 @@ function correct_names(data) {
 
 function correct_sales(data){
     data.forEach(item => {
-        if (typeof item.sales === 'string') {
-            item.sales = Number(item.sales);
+        if (typeof item.vendas === 'string') {
+            item.vendas = Number(item.vendas);
         }
     });
     return data;

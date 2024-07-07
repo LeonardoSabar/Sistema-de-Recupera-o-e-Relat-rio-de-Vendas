@@ -1,11 +1,11 @@
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
-INSERT INTO vehicles (brand, vehicle, sales) VALUES ('undefined', 'undefined', undefined);
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
+INSERT INTO Veículos (data, id_marca, marca, valor_do_veículo, vendas) VALUES (undefined, undefined, undefined, undefined, undefined;)
