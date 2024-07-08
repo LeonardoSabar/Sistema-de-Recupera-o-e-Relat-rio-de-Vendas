@@ -1,11 +1,11 @@
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 1, 'Fiat', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 2, 'Volkswagen', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 3, 'Kia', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 4, 'Peugeot ', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 5, 'Toyota', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 6, 'Nissan', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 7, 'Mitsubishi', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 8, 'Subaru', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 9, 'Chevrolet ', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 10, 'JaC Motors', NULL, NULL;)
-INSERT INTO Dados_de_vendas (data_da_compra, id_marca, marca, valor_do_veículo, vendas) VALUES (NULL, 11, 'Renault', NULL, NULL;)
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 1, NULL, 'Fiat', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 2, NULL, 'Volkswagen', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 3, NULL, 'Kia', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 4, NULL, 'Peugeot ', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 5, NULL, 'Toyota', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 6, NULL, 'Nissan', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 7, NULL, 'Mitsubishi', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 8, NULL, 'Subaru', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 9, NULL, 'Chevrolet ', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 10, NULL, 'JaC Motors', NULL, NULL);
+INSERT INTO Dados_de_vendas (data_da_venda, id_marca, nome, marca, valor_do_veiculo, vendas) VALUES (NULL, 11, NULL, 'Renault', NULL, NULL);

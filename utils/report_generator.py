@@ -71,39 +71,39 @@ high_revenue_low_sales = brand_revenue_sales[
 # Criação do PDF
 class PDF(FPDF):
     def header(self):
-        self.set_font('Arial', 'B', 12)
-        self.cell(0, 10, 'Relatório de Vendas', 0, 1, 'C')
+        self.set_font('Arial', 'B', 16)
+        self.cell(0, 12, 'Relatório de Vendas', 0, 1, 'C')
 
     def chapter_title(self, title):
         self.set_font('Arial', 'B', 12)
-        self.cell(0, 10, title, 0, 1, 'L')
+        self.cell(0, 12, title, 0, 1, 'L')
         self.ln(10)
 
     def chapter_body(self, body):
         self.set_font('Arial', '', 12)
-        self.multi_cell(0, 10, body)
+        self.multi_cell(0, 12, body)
         self.ln()
 
 # Instância do PDF
 pdf = PDF()
 pdf.add_page()
-pdf.chapter_title("Análise de Vendas de Veículos")
+pdf.chapter_title("Análise de Vendas de Veículos: ")
 
 # Adiciona conteúdo ao PDF
-pdf.chapter_body(f"A marca com maior volume de vendas é: {top_brand} com {top_brand_sales} vendas.")
-pdf.chapter_body(f"O veículo que gerou a maior receita é: {max_revenue_vehicle['marca']} com receita de R$ {max_revenue_vehicle['valor_do_veículo']:.2f}.")
-pdf.chapter_body(f"O veículo que gerou a menor receita é: {min_revenue_vehicle['marca']} com receita de R$ {min_revenue_vehicle['valor_do_veículo']:.2f}.")
+pdf.chapter_body(f"O modelo de veículo com maior volume de vendas é: {top_brand} com {int(top_brand_sales)} vendas.")
+pdf.chapter_body(f"O veículo que gerou a maior receita é: {max_revenue_vehicle['marca']} com receita de R${max_revenue_vehicle['valor_do_veículo']:.2f}.")
+pdf.chapter_body(f"O veículo que gerou a menor receita é: {min_revenue_vehicle['marca']} com receita de R${min_revenue_vehicle['valor_do_veículo']:.2f}.")
 
-pdf.chapter_title("Média de Vendas por Marca")
+pdf.chapter_title("Média de Vendas por Marca: ")
 average_sales_body = average_sales_per_brand.to_string()
 pdf.chapter_body(average_sales_body)
 
-pdf.chapter_title("Marcas que geraram maior receita com menor número de vendas")
+pdf.chapter_title("Marcas que geraram maior receita com menor número de vendas: ")
 high_revenue_low_sales_body = high_revenue_low_sales.to_string()
 pdf.chapter_body(high_revenue_low_sales_body)
 
 # Salvando o PDF
-pdf_output_path = 'sales_report.pdf'
+pdf_output_path = 'relatório_de_vendas.pdf'
 pdf.output(pdf_output_path)
 
 print(f'Relatório gerado com sucesso: {pdf_output_path}')
