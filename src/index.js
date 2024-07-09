@@ -18,9 +18,9 @@ correct_sales(db1_corrected, db2_corrected);
 export_json_file('./output/db1_corrected.json', db1_corrected);
 export_json_file('./output/db2_corrected.json', db2_corrected);
 
-const db1_sql = generate_sql_insert(db1_corrected, 1);
-const db2_sql = generate_sql_insert(db2_corrected, 2);
-const db3_sql = generate_sql_insert(db1_corrected, 3);
+const db1_sql = generate_sql_insert(db1_corrected, db2_corrected,1);
+const db2_sql = generate_sql_insert(db2_corrected, db1_corrected, 2);
+const db3_sql = generate_sql_insert(db1_corrected, db2_corrected, 3);
 
 fs.writeFileSync('./sql/db1.sql', db1_sql, 'utf8');
 fs.writeFileSync('./sql/db2.sql', db2_sql, 'utf8');
