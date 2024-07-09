@@ -57,47 +57,51 @@ function find_brand(item1) {
             return "Volkswagen";
         }
         else
-            return null;          
+            return null;
 }
 
-function find_brand_code(brand)
-{
-    if (brand === "Fiat") {
-        return 1;
-    }
-    else if (brand === "Volkswagen") {
-        return 2;
-    }
-    else if (brand === "Kia") {
-        return 3;
-    }
-    else if (brand === "Peugeot") {
-        return 4;
-    }
-    else if (brand === "Toyota") {
-        return 5;
-    }
-    else if (brand === "Nissan") {
-        return 6;
-    }
-    else if (brand === "Mitsubishi") {
-        return 7;
-    }
-    else if (brand === "Subaru") {
-        return 8;
-    }
-    else if (brand === "Chevrolet") {
-        return 9;
-    }
-    else if (brand === "Jac Motors") {
-        return 10;
-    }
-    else if (brand === "Renault") {
-        return 11;
-    }
-    else
-        return null;          
+// function find_brand_code(brand)
+// {
+//     if (brand === "Fiat") {
+//         return 1;
+//     }
+//     else if (brand === "Volkswagen") {
+//         return 2;
+//     }
+//     else if (brand === "Kia") {
+//         return 3;
+//     }
+//     else if (brand === "Peugeot") {
+//         return 4;
+//     }
+//     else if (brand === "Toyota") {
+//         return 5;
+//     }
+//     else if (brand === "Nissan") {
+//         return 6;
+//     }
+//     else if (brand === "Mitsubishi") {
+//         return 7;
+//     }
+//     else if (brand === "Subaru") {
+//         return 8;
+//     }
+//     else if (brand === "Chevrolet") {
+//         return 9;
+//     }
+//     else if (brand === "Jac Motors") {
+//         return 10;
+//     }
+//     else if (brand === "Renault") {
+//         return 11;
+//     }
+//     else
+//         return null;
 
+// }
+
+function get_sql_value(value) {
+    return is_empty(value) ? 'NULL' : (typeof value === 'string' ? `'${value}'` : value);
 }
 
 function get_sql_value(value) {
@@ -107,12 +111,12 @@ function get_sql_value(value) {
 function generate_sql_insert(data, flag) {
     return data.map(item1 => {
         let { data, id_marca_, nome, valor_do_veiculo, vendas, marca, id_marca } = item1;
-        
+
         if (flag == 3) {
             marca = find_brand(nome);
-            id_marca = find_brand_code(marca);
+            id_marca = get_sql_value(id_marca_);
         }
-        
+
         const datasql = get_sql_value(data);
         const id_modelosql = get_sql_value(id_marca_);
         const nome_modelosql = get_sql_value(nome);
@@ -120,7 +124,7 @@ function generate_sql_insert(data, flag) {
         const vendassql = get_sql_value(vendas);
         const marca_sql = get_sql_value(marca);
         const id_marca_sql = get_sql_value(id_marca);
-        
+
         if (flag === 1) {
             return `INSERT INTO Dados_de_vendas (data_da_venda, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
         } else if (flag === 2) {
