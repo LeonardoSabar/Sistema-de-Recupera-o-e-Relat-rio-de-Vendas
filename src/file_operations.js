@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 
 // Função para ler arquivos JSON
@@ -101,45 +100,38 @@ function find_brand_code(brand)
 
 }
 
-function generate_sql_insert(data, flag) {
-    return data.map(item1 => {
-      const data = item1.data;
-      const id_modelo = item1.id_marca_;
-      const nome_modelo = item1.nome;
-      const valor_do_veiculo = item1.valor_do_veiculo;
-      const vendas = item1.vendas;
-      let nome_marca = item1.marca;
-      let id_marca = item1.id_marca;
-      let marca_sql = is_empty(nome_marca) ? 'NULL' : `'${nome_marca}'`;
-      let id_marca_sql = is_empty(id_marca) ? 'NULL' : id_marca;
-      const datasql = is_empty(data) ? 'NULL' : `'${data}'`;
-      const id_modelosql = is_empty(id_modelo) ? 'NULL' : id_modelo;
-      const nome_modelosql = is_empty(nome_modelo) ? 'NULL' : `'${nome_modelo}'`;
-      const valor_do_veiculosql = is_empty(valor_do_veiculo) ? 'NULL' : valor_do_veiculo;
-      const vendassql = is_empty(vendas) ? 'NULL' : vendas;
-      
-      if (flag == 3) {
-        nome_marca = find_brand(nome_modelo);
-        id_marca = find_brand_code(nome_marca);
-        marca_sql = is_empty(nome_marca) ? 'NULL' : `'${nome_marca}'`;
-        id_marca_sql = is_empty(id_marca) ? 'NULL' : id_marca;
-      }
-
-      
-    if (flag === 1) {
-        return `INSERT INTO Dados_de_vendas (data_da_venda, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;      
-    }
-    else if (flag === 2) {
-        return `INSERT INTO Dados_de_vendas (id_marca, marca) VALUES (${id_marca_sql}, ${marca_sql});`;
-    }
-    else if (flag === 3) {
-        return `INSERT INTO Dados_de_vendas (data, id_marca, marca, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_marca_sql}, ${marca_sql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
-    }
-    else
-        return null;
-}).join('\n');
+function get_sql_value(value) {
+    return is_empty(value) ? 'NULL' : (typeof value === 'string' ? `'${value}'` : value);
 }
 
+function generate_sql_insert(data, flag) {
+    return data.map(item1 => {
+        let { data, id_marca_, nome, valor_do_veiculo, vendas, marca, id_marca } = item1;
+        
+        if (flag == 3) {
+            marca = find_brand(nome);
+            id_marca = find_brand_code(marca);
+        }
+        
+        const datasql = get_sql_value(data);
+        const id_modelosql = get_sql_value(id_marca_);
+        const nome_modelosql = get_sql_value(nome);
+        const valor_do_veiculosql = get_sql_value(valor_do_veiculo);
+        const vendassql = get_sql_value(vendas);
+        const marca_sql = get_sql_value(marca);
+        const id_marca_sql = get_sql_value(id_marca);
+        
+        if (flag === 1) {
+            return `INSERT INTO Dados_de_vendas (data_da_venda, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
+        } else if (flag === 2) {
+            return `INSERT INTO Dados_de_vendas (id_marca, marca) VALUES (${id_marca_sql}, ${marca_sql});`;
+        } else if (flag === 3) {
+            return `INSERT INTO Dados_de_vendas (data, id_marca, marca, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_marca_sql}, ${marca_sql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
+        } else {
+            return null;
+        }
+    }).filter(sql => sql !== null).join('\n');
+}
 // Exportando as funções
 
 module.exports = {
