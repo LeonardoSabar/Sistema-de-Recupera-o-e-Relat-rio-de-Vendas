@@ -127,13 +127,13 @@ function generate_sql_insert(data, flag) {
 
       
     if (flag === 1) {
-        return `INSERT INTO veiculos (data_da_venda, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;      
+        return `INSERT INTO Database (data_da_venda, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;      
     }
     else if (flag === 2) {
-        return `INSERT INTO veiculos (id_marca, marca) VALUES (${id_marca_sql}, ${marca_sql});`;
+        return `INSERT INTO Database (id_marca, marca) VALUES (${id_marca_sql}, ${marca_sql});`;
     }
     else if (flag === 3) {
-        return `INSERT INTO veiculos (data, id_marca, marca, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_marca_sql}, ${marca_sql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
+        return `INSERT INTO Database (data, id_marca, marca, id_modelo, nome_modelo, valor_do_veiculo, vendas) VALUES (${datasql}, ${id_marca_sql}, ${marca_sql}, ${id_modelosql}, ${nome_modelosql}, ${valor_do_veiculosql}, ${vendassql});`;
     }
     else
         return null;
