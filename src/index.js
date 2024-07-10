@@ -1,12 +1,11 @@
+// Importando o módulo fs para manipulação de arquivos
 const fs = require('fs');
 
 // Importando as funções dos outros arquivos
-
 const { read_json, export_json_file, generate_sql_insert } = require('./file_operations');
 const { correct_names, correct_sales } = require('./data_correction');
 
 // Fluxo Principal
-
 const db1 = read_json('./data/broken_database_1.json');
 const db2 = read_json('./data/broken_database_2.json');
 
@@ -26,6 +25,7 @@ fs.writeFileSync('./sql/db1.sql', db1_sql, 'utf8');
 fs.writeFileSync('./sql/db2.sql', db2_sql, 'utf8');
 fs.writeFileSync('./sql/db_merged.sql', db3_sql, 'utf8');
 
+// Mensagem de sucesso
 console.log('\x1b[33m' + '---------------------------------------');
 console.log('\x1b[33m' + '---- Arquivos gerados com sucesso! ----');
 console.log('\x1b[033m' + '---------------------------------------');

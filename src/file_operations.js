@@ -1,7 +1,7 @@
+// Importando o módulo fs
 const fs = require('fs');
 
 // Função para ler arquivos JSON
-
 function read_json(file_path) {
     const data = fs.readFileSync(file_path, 'utf8');
     const json_data = JSON.parse(data);
@@ -9,18 +9,17 @@ function read_json(file_path) {
 }
 
 // Função para escrever arquivos JSON
-
 function export_json_file(file_path, data) {
     const json_data = JSON.stringify(data, null, 2);
     fs.writeFileSync(file_path, json_data, 'utf8');
 }
 
 // Função para gerar SQL INSERT
-
 function is_empty(value) {
     return value === undefined || value === null || value === '';
 }
 
+// Função para encontrar a marca
 function find_brand(data, id)
 {
     for (const obj of data) {
@@ -30,16 +29,15 @@ function find_brand(data, id)
             }
         }
     }
+    return null;
 }
 
+// Função para obter o valor SQL
 function get_sql_value(value) {
     return is_empty(value) ? 'NULL' : (typeof value === 'string' ? `'${value}'` : value);
 }
 
-function get_sql_value(value) {
-    return is_empty(value) ? 'NULL' : (typeof value === 'string' ? `'${value}'` : value);
-}
-
+// Função para gerar SQL INSERT
 function generate_sql_insert(data1, data2, flag) {
     return data1.map(item1 => {
         let { data, id_marca_, nome, valor_do_veiculo, vendas, marca, id_marca } = item1;
@@ -70,8 +68,8 @@ function generate_sql_insert(data1, data2, flag) {
         }
     }).filter(sql => sql !== null).join('\n');
 }
-// Exportando as funções
 
+// Exportando as funções
 module.exports = {
     read_json,
     export_json_file,

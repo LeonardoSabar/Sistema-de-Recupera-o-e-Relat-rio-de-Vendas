@@ -1,6 +1,5 @@
 
-//Função para corrigir nomes de marcas e veículos
-
+//Função para corrigir nomes
 function correct_names(data) {
     data.forEach(item => {
       if (typeof item.nome === 'string') {
@@ -15,7 +14,6 @@ function correct_names(data) {
 }
 
 //Função para corrigir vendas
-
 function correct_sales(data){
     data.forEach(item => {
         if (typeof item.vendas === 'string') {
@@ -26,7 +24,6 @@ function correct_sales(data){
 }
 
 //Exportando as funções
-
 module.exports = {
     correct_names,
     correct_sales
