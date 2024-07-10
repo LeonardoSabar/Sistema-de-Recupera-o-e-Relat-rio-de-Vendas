@@ -78,3 +78,6 @@ Após a execução do script, os seguintes arquivos serão gerados:
   - `./sql/db1.sql`: Dados para popular a tabela `Dados_de_vendas` com informações do `broken_database_1.json`.
   - `./sql/db2.sql`: Dados para popular a tabela `Dados_de_vendas` com informações do `broken_database_2.json`.
   - `./sql/combined.sql`: Dados para popular a tabela `Dados_de_vendas` com informações combinadas dos arquivos JSON.
+
+## Contribuições
+Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para uma nova funcionalidade, sinta-se à vontade para abrir uma issue ou enviar um pull request.
