@@ -36,11 +36,11 @@ Este arquivo contém funções para corrigir dados dos arquivos JSON:
 Este é o script principal que executa o fluxo do projeto:
 
 - **Fluxo Principal**:
-  1. Lê os arquivos JSON com dados corrompidos.
-  2. Corrige os dados.
-  3. Exporta os dados corrigidos para novos arquivos JSON.
-  4. Gera scripts SQL `INSERT` para popular o banco de dados.
-  5. Salva os scripts SQL em arquivos.
+  - 1. Lê os arquivos JSON com dados corrompidos.
+  - 2. Corrige os dados.
+  - 3. Exporta os dados corrigidos para novos arquivos JSON.
+  - 4. Gera scripts SQL `INSERT` para popular o banco de dados.
+  - 5. Salva os scripts SQL em arquivos.
 
 ## Como Executar
 
@@ -51,6 +51,11 @@ Para executar o projeto, siga os passos abaixo:
    ```bash
    npm install
     ```
+2. **Execute o script principal**:
+
+   ```bash
+   node index.js
+   ```
 Isso lerá os arquivos JSON, corrigirá os dados, exportará os arquivos JSON corrigidos e gerará os arquivos SQL com as instruções INSERT.
 
 ## Tratamento de Erros
